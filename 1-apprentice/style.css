@@ -1,0 +1,71 @@
+/* Here are a few changes you may consider:
+- change the font family used for various elements
+- consider using a different font color for headings and 
+  body text
+- change the alignment of various elements (such as
+  centering the title)
+- add borders, padding, and margin to improve separation   of various parts of the resume
+*/
+
+body{
+    background: teal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#name{
+    text-align: center;
+    color: darkblue;
+    background: white;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
+#contactDetails{
+    color: white;
+    border: 3px solid red;
+    background: black;
+    display: inline-block;
+    padding-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    border: 2px solid cornflowerblue;
+}
+
+.sectionTitle{
+    color: grey;
+    background: white;
+    text-align: center;
+    
+}
+
+ul.keySkills{
+    border: 2px solid thistle;
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.workExperience{
+    background-image: url('https://images.pexels.com/photos/734973/pexels-photo-734973.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    color: white;
+    
+    margin-right: 50%;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background-size: cover;
+}
+
+.education{
+    background: darksalmon;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
